@@ -1,4 +1,4 @@
-use usr_skerrittt_1;
+-- use usr_skerrittt_1;
 
 CREATE TABLE Nation (
     nation_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -68,3 +68,4 @@ CREATE TABLE Goal (
     FOREIGN KEY (player_id) REFERENCES Player(player_id),
     FOREIGN KEY (game_id) REFERENCES Game(game_id)
 );
+
